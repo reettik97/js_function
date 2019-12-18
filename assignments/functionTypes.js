@@ -18,7 +18,7 @@ function convertToString(n) {
 }
 
 // Function Expression
-let convertToString1 = function(n) {
+let convertToString1 = function (n) {
   return String(n);
 };
 
@@ -43,22 +43,21 @@ convertToString(21); // "21"
  */
 
 //Function Decleration
-function add_one(n)
-{
-  return n+1;
+function add_one(n) {
+  return n + 1;
 }
 // 2. Function Expression
-let add_one = function(n){
-  return n+1; 
+let add_one = function (n) {
+  return n + 1;
 }
 // 3. Arrow Function Without Curly Braces 
-let add_one = n => n+1;
+let add_one = n => n + 1;
 //Arrow Function With Curly Braces 
 let add_one = n => {
-  return n+1;
+  return n + 1;
 }
 // Function Invocation
- add_one(5);
+add_one(5);
 
 
 
@@ -70,22 +69,21 @@ let add_one = n => {
  */
 
 //Function Decleration
- function sub_one(n){
-   return n-1;
- }
- //  Function Expression
- let sub_one = function(n)
- {
-  return n-1;
- } 
- // Arrow Function Without Curly Braces 
-let sub_one = n => n-1;
+function sub_one(n) {
+  return n - 1;
+}
+//  Function Expression
+let sub_one = function (n) {
+  return n - 1;
+}
+// Arrow Function Without Curly Braces 
+let sub_one = n => n - 1;
 //Arrow Function With Curly Braces 
 let sub_one = n => {
-   return n-1;
-  }
-  // Function Invocation
-  sub_one(5);
+  return n - 1;
+}
+// Function Invocation
+sub_one(5);
 
 
 
@@ -98,22 +96,21 @@ let sub_one = n => {
  */
 
 //Function Decleration
- function add(x , y){
-   return x+y;
- }
- // 2. Function Expression
- let add = function(x , y)
- {
-   return x + y ;
- }
- // 3. Arrow Function Without Curly Braces 
- let add = (x , y) => x+y;
- //Arrow Function With Curly Braces 
- let add = (x , y) => {
-   return x+y;
-  }
+function add(x, y) {
+  return x + y;
+}
+// 2. Function Expression
+let add = function (x, y) {
+  return x + y;
+}
+// 3. Arrow Function Without Curly Braces 
+let add = (x, y) => x + y;
+//Arrow Function With Curly Braces 
+let add = (x, y) => {
+  return x + y;
+}
 // Function Invocation
-add(3 , 4);
+add(3, 4);
 
 /**
  * Subtracts the second number from the first.
@@ -123,18 +120,18 @@ add(3 , 4);
  */
 
 //Function Decleration
-function sub(x , y){
-  return x-y;
+function sub(x, y) {
+  return x - y;
 }
 // 2. Function Expression
-let sub = function(x , y){
+let sub = function (x, y) {
   return x - y;
 }
 // 3. Arrow Function Without Curly Braces 
-let sub = (x , y) => x-y;
+let sub = (x, y) => x - y;
 //Arrow Function With Curly Braces 
-let sub = (x , y) => {
-  return x-y;
+let sub = (x, y) => {
+  return x - y;
 }
 // Function Invocation
 sub(78, 54);
@@ -148,22 +145,21 @@ sub(78, 54);
  * @return {number} the product
  */
 //Function Decleration
-function mul(x , y)
-{
-  return x*y;
+function mul(x, y) {
+  return x * y;
 }
 // 2. Function Expression
-let mul = function(x , y){
-   return x*y;
+let mul = function (x, y) {
+  return x * y;
 }
 // 3. Arrow Function Without Curly Braces 
-let mul = (x , y) => x*y;
+let mul = (x, y) => x * y;
 //Arrow Function With Curly Braces 
-let mul = (x , y) => {
-  return x*y;
+let mul = (x, y) => {
+  return x * y;
 }
 // Function Invocation
-mul(90 , 45);
+mul(90, 45);
 
 
 
@@ -176,23 +172,21 @@ mul(90 , 45);
  */
 
 //Function Decleration
-function div(x , y)
-{
-   return x/y;
+function div(x, y) {
+  return x / y;
 }
 // 2. Function Expression
-let div = function(x , y)
-{
+let div = function (x, y) {
   return x / y;
 }
 // 3. Arrow Function Without Curly Braces 
-let div = (x , y) => x / y;
+let div = (x, y) => x / y;
 //Arrow Function With Curly Braces 
-let div = (x , y) => {
+let div = (x, y) => {
   return x / y;
 }
 // Function Invocation
-div(60 , 10);
+div(60, 10);
 
 /**
  * Multiplies a number by itself.
@@ -200,21 +194,19 @@ div(60 , 10);
  * @return {number} squared
  */
 
- //Function Decleration
-function squared(x)
-{
-    return x*x;
+//Function Decleration
+function squared(x) {
+  return x * x;
 }
 // 2. Function Expression
-let squared = function(x)
-{
-  return x*x;
+let squared = function (x) {
+  return x * x;
 }
 // 3. Arrow Function Without Curly Braces 
-let squared = n => x*x;
+let squared = n => x * x;
 //Arrow Function With Curly Braces 
 let squared = n => {
-  return x*x;
+  return x * x;
 }
 // Function Invocation
 squared(9);
@@ -232,63 +224,59 @@ squared(9);
  */
 
 
- //Function Decleration
-  function math_operation( str , x , y){
-    switch(str)
-    {
-      case "add" : 
-            console.log( x + " + " + y);
-            return x+y;
-      case "substract" : 
-            console.log( x + " - " + y);
-            return x-y;
-      case "multiply" : 
-            console.log( x + " * " + y);
-            return x*y;
-      case "divide" : 
-            console.log( x + " / " + y);
-            return x/y;
-    }
+//Function Decleration
+function math_operation(str, x, y) {
+  switch (str) {
+    case "add":
+      console.log(x + " + " + y);
+      return x + y;
+    case "substract":
+      console.log(x + " - " + y);
+      return x - y;
+    case "multiply":
+      console.log(x + " * " + y);
+      return x * y;
+    case "divide":
+      console.log(x + " / " + y);
+      return x / y;
   }
+}
 // 2. Function Expression
- let math_operation = function(str , x ,y)
- {
-  switch(str)
-  {
-    case "add" : 
-          console.log( x + " + " + y);
-          return x+y;
-    case "substract" : 
-          console.log( x + " - " + y);
-          return x-y;
-    case "multiply" : 
-          console.log( x + " * " + y);
-          return x*y;
-    case "divide" : 
-          console.log( x + " / " + y);
-          return x/y;
+let math_operation = function (str, x, y) {
+  switch (str) {
+    case "add":
+      console.log(x + " + " + y);
+      return x + y;
+    case "substract":
+      console.log(x + " - " + y);
+      return x - y;
+    case "multiply":
+      console.log(x + " * " + y);
+      return x * y;
+    case "divide":
+      console.log(x + " / " + y);
+      return x / y;
   }
- }  
- //Arrow Function With Curly Braces 
- let math_operation = (str , x , y) => {
-  switch(str)
-  {
-    case "add" : 
-          console.log( x + " + " + y);
-          return x+y;
-    case "substract" : 
-          console.log( x + " - " + y);
-          return x-y;
-    case "multiply" : 
-          console.log( x + " * " + y);
-          return x*y;
-    case "divide" : 
-          console.log( x + " / " + y);
-          return x/y;
+}
+//Arrow Function With Curly Braces 
+let math_operation = (str, x, y) => {
+  switch (str) {
+    case "add":
+      console.log(x + " + " + y);
+      return x + y;
+    case "substract":
+      console.log(x + " - " + y);
+      return x - y;
+    case "multiply":
+      console.log(x + " * " + y);
+      return x * y;
+    case "divide":
+      console.log(x + " / " + y);
+      return x / y;
   }
- }
+}
 // Function Invocation
-math_operation("add" , 20 ,20);
+math_operation("add", 20, 20);
 
 /**
  * Returns true if `a` is greater than `b`.
@@ -298,28 +286,24 @@ math_operation("add" , 20 ,20);
  */
 
 // 2. Function Expression
-  function check_greater_than(a , b)
-  {
-    if(a>b)
-    {
-      return true;
-    }
-    else
-    {
-      return false;
-    }
+function check_greater_than(a, b) {
+  if (a > b) {
+    return true;
+  } else {
+    return false;
   }
-  let check_greater_than = function(a , b){
-    return (a>b)?true:false;
-  }
-  // 3. Arrow Function Without Curly Braces 
-  let check_greater_than = (a , b) => (a>b)?true:false;
-  //Arrow Function With Curly Braces 
-  let check_greater_than = (a , b) => {
-    return (a>b)?true:false;
-  }
- // Function Invocation
- check_greater_than(3 , 8);
+}
+let check_greater_than = function (a, b) {
+  return (a > b) ? true : false;
+}
+// 3. Arrow Function Without Curly Braces 
+let check_greater_than = (a, b) => (a > b) ? true : false;
+//Arrow Function With Curly Braces 
+let check_greater_than = (a, b) => {
+  return (a > b) ? true : false;
+}
+// Function Invocation
+check_greater_than(3, 8);
 
 
 
@@ -331,22 +315,20 @@ math_operation("add" , 20 ,20);
  * @return {boolean} `a` is smaller than `b`
  */
 //Function Decleration
-function check_less_than(a , b)
-{
-   return (a<b)? true : false;
+function check_less_than(a, b) {
+  return (a < b) ? true : false;
 }
 // 2. Function Expression
-let check_less_than = function(a , b)
-{
-  return (a>b)? false: true; 
+let check_less_than = function (a, b) {
+  return (a > b) ? false : true;
 }
 // 3. Arrow Function Without Curly Braces 
-let check_less_than = (a ,b) => (a>b)? false: true;
-let check_less_than = (a ,b) => {
-  return(a>b)? false: true;
+let check_less_than = (a, b) => (a > b) ? false : true;
+let check_less_than = (a, b) => {
+  return (a > b) ? false : true;
 }
 // Function Invocation
-check_less_than(23 ,41);
+check_less_than(23, 41);
 
 
 
@@ -359,23 +341,21 @@ check_less_than(23 ,41);
  */
 
 //Function Decleration
-function check_equal(a , b)
-{
-   return (a==b)?true : false;
+function check_equal(a, b) {
+  return (a == b) ? true : false;
 }
 // 2. Function Expression
-let check_equal = function(a , b)
-{
-  return (a==b)?true : false;
+let check_equal = function (a, b) {
+  return (a == b) ? true : false;
 }
 // 3. Arrow Function Without Curly Braces 
-let check_equal = (a, b) =>(a==b)?true:false;
+let check_equal = (a, b) => (a == b) ? true : false;
 //Arrow Function With Curly Braces 
-let check_equal = (a, b) =>{
-  return(a==b)?true:false;
+let check_equal = (a, b) => {
+  return (a == b) ? true : false;
 }
 // Function Invocation
-check_equal(5 ,5);
+check_equal(5, 5);
 
 
 
@@ -387,23 +367,21 @@ check_equal(5 ,5);
  */
 
 //Function Decleration
-function smallest_value(x ,y)
-{
-   return (x<y)?x:y;
+function smallest_value(x, y) {
+  return (x < y) ? x : y;
 }
 // 2. Function Expression
-let smallest_value = function(x , y)
-{
-  return (x<y)?x:y;
+let smallest_value = function (x, y) {
+  return (x < y) ? x : y;
 }
 // 3. Arrow Function Without Curly Braces 
-let smallest_value = (x , y) =>(x<y)?x:y;
+let smallest_value = (x, y) => (x < y) ? x : y;
 //Arrow Function With Curly Braces 
-let smallest_value = (x , y) =>{
-  return(x<y)?x:y;
+let smallest_value = (x, y) => {
+  return (x < y) ? x : y;
 }
 // Function Invocation
-smallest_value(8 , 9);
+smallest_value(8, 9);
 
 
 
@@ -414,23 +392,21 @@ smallest_value(8 , 9);
  * @return {number} the largest number
  */
 //Function Decleration
-function largest_value(x ,y)
-{
-  return (x>y)?x:y;
+function largest_value(x, y) {
+  return (x > y) ? x : y;
 }
 // 2. Function Expression
-let largest_value = function(x , y)
-{
-  return (x>y)?x:y;
+let largest_value = function (x, y) {
+  return (x > y) ? x : y;
 }
 // 3. Arrow Function Without Curly Braces 
-let largest_value = (x , y) => (x>y)?x:y;
+let largest_value = (x, y) => (x > y) ? x : y;
 //Arrow Function With Curly Braces 
-let largest_value = (x , y) => { 
-  return(x>y)?x:y;
+let largest_value = (x, y) => {
+  return (x > y) ? x : y;
 }
 // Function Invocation
-largest_value(8 , 5);
+largest_value(8, 5);
 
 
 
@@ -440,21 +416,18 @@ largest_value(8 , 5);
  * @return {boolean} the number is even
  */
 //Function Decleration
- function check_even(n)
- {
-   return (n%2==0)?true:false;
- }
- // 2. Function Expression
-let check_even = function(n)
-{
-  return (n%2==0)?true:false;
+function check_even(n) {
+  return (n % 2 == 0) ? true : false;
+}
+// 2. Function Expression
+let check_even = function (n) {
+  return (n % 2 == 0) ? true : false;
 }
 // 3. Arrow Function Without Curly Braces 
-let check_even = n =>(n%2==0)?true:false;
+let check_even = n => (n % 2 == 0) ? true : false;
 //Arrow Function With Curly Braces 
-let check_even = n =>
-{
-  return(n%2==0)?true:false;
+let check_even = n => {
+  return (n % 2 == 0) ? true : false;
 }
 // Function Invocation
 check_even(8);
@@ -467,20 +440,18 @@ check_even(8);
  * @return {boolean} the number is odd
  */
 //Function Decleration
-function check_odd(n)
- {
-   return (n%2==0)?false:true;
- }
- // 2. Function Expression
- let check_odd = function(n)
- {
-   return (n%2==0)?false:true;
- }
- // 3. Arrow Function Without Curly Braces 
-let check_odd = n => (n%2==0)?false:true;
+function check_odd(n) {
+  return (n % 2 == 0) ? false : true;
+}
+// 2. Function Expression
+let check_odd = function (n) {
+  return (n % 2 == 0) ? false : true;
+}
+// 3. Arrow Function Without Curly Braces 
+let check_odd = n => (n % 2 == 0) ? false : true;
 //Arrow Function With Curly Braces 
-let check_odd = n =>{
-  return(n%2==0)?false:true;
+let check_odd = n => {
+  return (n % 2 == 0) ? false : true;
 }
 // Function Invocation
 check_odd(9);
@@ -500,60 +471,55 @@ check_odd(9);
  * @return {string} the score represented as a letter grade
  */
 //Function Decleration
-function grade( score , total)
-{
-   var parcentage = (score * 100)/total;
-    switch(parcentage)
-    {
-      case (parcentage >= 90) :
-            return "A";
-      case (parcentage >= 80) :
-            return "B";
-      case (parcentage >= 70) :
-            return "C";
-      case (parcentage >= 60) :
-            return "D";
-      default:
-            return "F";
-    }
+function grade(score, total) {
+  var parcentage = (score * 100) / total;
+  switch (parcentage) {
+    case (parcentage >= 90):
+      return "A";
+    case (parcentage >= 80):
+      return "B";
+    case (parcentage >= 70):
+      return "C";
+    case (parcentage >= 60):
+      return "D";
+    default:
+      return "F";
+  }
 }
 // 2. Function Expression
-let grade = function( score ,total)
-{
-  var parcentage = (score * 100)/total;
-  switch(parcentage)
-  {
-    case (parcentage >= 90) :
-          return "A";
-    case (parcentage >= 80) :
-          return "B";
-    case (parcentage >= 70) :
-          return "C";
-    case (parcentage >= 60) :
-          return "D";
+let grade = function (score, total) {
+  var parcentage = (score * 100) / total;
+  switch (parcentage) {
+    case (parcentage >= 90):
+      return "A";
+    case (parcentage >= 80):
+      return "B";
+    case (parcentage >= 70):
+      return "C";
+    case (parcentage >= 60):
+      return "D";
     default:
-          return "F";
+      return "F";
   }
 }
 //Arrow Function With Curly Braces 
-let grade = (score, total) =>{
-  var parcentage = (score * 100)/total;
-  switch(parcentage)
-  {
-    case (parcentage >= 90) :
-          return "A";
-    case (parcentage >= 80) :
-          return "B";
-    case (parcentage >= 70) :
-          return "C";
-    case (parcentage >= 60) :
-          return "D";
+let grade = (score, total) => {
+  var parcentage = (score * 100) / total;
+  switch (parcentage) {
+    case (parcentage >= 90):
+      return "A";
+    case (parcentage >= 80):
+      return "B";
+    case (parcentage >= 70):
+      return "C";
+    case (parcentage >= 60):
+      return "D";
     default:
-          return "F";
+      return "F";
   }
 }
 // Function Invocation
-grade(45 , 100);
+grade(45, 100);
 
 
 
@@ -564,20 +530,18 @@ grade(45 , 100);
  * @return {string} joined the words joined with a space
  */
 //Function Decleration
-function concatenate(str1 , str2)
-{
-  return str1+str2;
+function concatenate(str1, str2) {
+  return str1 + str2;
 }
 // 2. Function Expression
-let concatenate = function(str1 , str2)
-{
-  return str1+str2;
+let concatenate = function (str1, str2) {
+  return str1 + str2;
 }
 // 3. Arrow Function Without Curly Braces 
-let concatenate = (str1 , str2) =>str1+str2;
+let concatenate = (str1, str2) => str1 + str2;
 //Arrow Function With Curly Braces 
-let concatenate = (str1 , str2) =>{
-  return str1+str2;
+let concatenate = (str1, str2) => {
+  return str1 + str2;
 }
 // Function Invocation
-concatenate(reettik , goswami);
+concatenate(reettik, goswami);
