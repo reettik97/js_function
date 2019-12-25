@@ -96,7 +96,7 @@ Is there any difference in the behavior of these two variants? If there is what 
 // {
 //   return Math.pow(x , n);
 // }
-function pow(x , n)
+function power(x , n)
 { 
    if(n == 0){return 1;}
    else{
