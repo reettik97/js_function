@@ -160,7 +160,7 @@ let sum = function(num)
 
 ```js
 // your code goes here
- function sum_0f_mul_5_7(num)
+ function mulOf5_7Sum(num)
  { 
    var sum=0;
    for(let i=1;i<=num;i++)

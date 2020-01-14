@@ -43,21 +43,21 @@ convertToString(21); // "21"
  */
 
 //Function Decleration
-function add_one(n) {
+function increment(n) {
   return n + 1;
 }
 // 2. Function Expression
-let add_one = function (n) {
+let increment = function (n) {
   return n + 1;
 }
 // 3. Arrow Function Without Curly Braces 
-let add_one = n => n + 1;
+let increment = n => n + 1;
 //Arrow Function With Curly Braces 
-let add_one = n => {
+let increment = n => {
   return n + 1;
 }
 // Function Invocation
-add_one(5);
+increment(5);
 
 
 
@@ -69,21 +69,21 @@ add_one(5);
  */
 
 //Function Decleration
-function sub_one(n) {
+function decrement(n) {
   return n - 1;
 }
 //  Function Expression
-let sub_one = function (n) {
+let decrement = function (n) {
   return n - 1;
 }
 // Arrow Function Without Curly Braces 
-let sub_one = n => n - 1;
+let decrement = n => n - 1;
 //Arrow Function With Curly Braces 
-let sub_one = n => {
+let decrement = n => {
   return n - 1;
 }
 // Function Invocation
-sub_one(5);
+decrement(5);
 
 
 
@@ -172,21 +172,21 @@ mul(90, 45);
  */
 
 //Function Decleration
-function div(x, y) {
+function division(x, y) {
   return x / y;
 }
 // 2. Function Expression
-let div = function (x, y) {
+let division = function (x, y) {
   return x / y;
 }
 // 3. Arrow Function Without Curly Braces 
-let div = (x, y) => x / y;
+let division = (x, y) => x / y;
 //Arrow Function With Curly Braces 
-let div = (x, y) => {
+let division = (x, y) => {
   return x / y;
 }
 // Function Invocation
-div(60, 10);
+division(60, 10);
 
 /**
  * Multiplies a number by itself.
@@ -225,7 +225,7 @@ squared(9);
 
 
 //Function Decleration
-function math_operation(str, x, y) {
+function mathOperation(str, x, y) {
   switch (str) {
     case "add":
       console.log(x + " + " + y);
@@ -242,7 +242,7 @@ function math_operation(str, x, y) {
   }
 }
 // 2. Function Expression
-let math_operation = function (str, x, y) {
+let mathOperation = function (str, x, y) {
   switch (str) {
     case "add":
       console.log(x + " + " + y);
@@ -259,7 +259,7 @@ let math_operation = function (str, x, y) {
   }
 }
 //Arrow Function With Curly Braces 
-let math_operation = (str, x, y) => {
+let mathOperation = (str, x, y) => {
   switch (str) {
     case "add":
       console.log(x + " + " + y);
@@ -276,7 +276,7 @@ let math_operation = (str, x, y) => {
   }
 }
 // Function Invocation
-math_operation("add", 20, 20);
+mathOperation("add", 20, 20);
 
 /**
  * Returns true if `a` is greater than `b`.
@@ -286,24 +286,24 @@ math_operation("add", 20, 20);
  */
 
 // 2. Function Expression
-function check_greater_than(a, b) {
+function checkGreaterThan(a, b) {
   if (a > b) {
     return true;
   } else {
     return false;
   }
 }
-let check_greater_than = function (a, b) {
+let checkGreaterThan = function (a, b) {
   return (a > b) ? true : false;
 }
 // 3. Arrow Function Without Curly Braces 
-let check_greater_than = (a, b) => (a > b) ? true : false;
+let checkGreaterThan = (a, b) => (a > b) ? true : false;
 //Arrow Function With Curly Braces 
-let check_greater_than = (a, b) => {
+let checkGreaterThan = (a, b) => {
   return (a > b) ? true : false;
 }
 // Function Invocation
-check_greater_than(3, 8);
+checkGreaterThan(3, 8);
 
 
 
@@ -315,20 +315,20 @@ check_greater_than(3, 8);
  * @return {boolean} `a` is smaller than `b`
  */
 //Function Decleration
-function check_less_than(a, b) {
+function checkLessThen(a, b) {
   return (a < b) ? true : false;
 }
 // 2. Function Expression
-let check_less_than = function (a, b) {
+let checkLessThen = function (a, b) {
   return (a > b) ? false : true;
 }
 // 3. Arrow Function Without Curly Braces 
-let check_less_than = (a, b) => (a > b) ? false : true;
-let check_less_than = (a, b) => {
+let checkLessThen = (a, b) => (a > b) ? false : true;
+let checkLessThen = (a, b) => {
   return (a > b) ? false : true;
 }
 // Function Invocation
-check_less_than(23, 41);
+checkLessThen(23, 41);
 
 
 
@@ -341,21 +341,21 @@ check_less_than(23, 41);
  */
 
 //Function Decleration
-function check_equal(a, b) {
+function checkEqual(a, b) {
   return (a == b) ? true : false;
 }
 // 2. Function Expression
-let check_equal = function (a, b) {
+let checkEqual = function (a, b) {
   return (a == b) ? true : false;
 }
 // 3. Arrow Function Without Curly Braces 
-let check_equal = (a, b) => (a == b) ? true : false;
+let checkEqual = (a, b) => (a == b) ? true : false;
 //Arrow Function With Curly Braces 
-let check_equal = (a, b) => {
+let checkEqual = (a, b) => {
   return (a == b) ? true : false;
 }
 // Function Invocation
-check_equal(5, 5);
+checkEqual(5, 5);
 
 
 
@@ -367,21 +367,21 @@ check_equal(5, 5);
  */
 
 //Function Decleration
-function smallest_value(x, y) {
+function smallestValue(x, y) {
   return (x < y) ? x : y;
 }
 // 2. Function Expression
-let smallest_value = function (x, y) {
+let smallestValue = function (x, y) {
   return (x < y) ? x : y;
 }
 // 3. Arrow Function Without Curly Braces 
-let smallest_value = (x, y) => (x < y) ? x : y;
+let smallestValue = (x, y) => (x < y) ? x : y;
 //Arrow Function With Curly Braces 
-let smallest_value = (x, y) => {
+let smallestValue = (x, y) => {
   return (x < y) ? x : y;
 }
 // Function Invocation
-smallest_value(8, 9);
+smallestValue(8, 9);
 
 
 
@@ -392,21 +392,21 @@ smallest_value(8, 9);
  * @return {number} the largest number
  */
 //Function Decleration
-function largest_value(x, y) {
+function largestValue(x, y) {
   return (x > y) ? x : y;
 }
 // 2. Function Expression
-let largest_value = function (x, y) {
+let largestValue = function (x, y) {
   return (x > y) ? x : y;
 }
 // 3. Arrow Function Without Curly Braces 
-let largest_value = (x, y) => (x > y) ? x : y;
+let largestValue = (x, y) => (x > y) ? x : y;
 //Arrow Function With Curly Braces 
-let largest_value = (x, y) => {
+let largestValue = (x, y) => {
   return (x > y) ? x : y;
 }
 // Function Invocation
-largest_value(8, 5);
+largestValue(8, 5);
 
 
 
@@ -416,21 +416,21 @@ largest_value(8, 5);
  * @return {boolean} the number is even
  */
 //Function Decleration
-function check_even(n) {
+function checkEven(n) {
   return (n % 2 == 0) ? true : false;
 }
 // 2. Function Expression
-let check_even = function (n) {
+let checkEven = function (n) {
   return (n % 2 == 0) ? true : false;
 }
 // 3. Arrow Function Without Curly Braces 
-let check_even = n => (n % 2 == 0) ? true : false;
+let checkEven = n => (n % 2 == 0) ? true : false;
 //Arrow Function With Curly Braces 
-let check_even = n => {
+let checkEven = n => {
   return (n % 2 == 0) ? true : false;
 }
 // Function Invocation
-check_even(8);
+checkEven(8);
 
 
 
@@ -440,21 +440,21 @@ check_even(8);
  * @return {boolean} the number is odd
  */
 //Function Decleration
-function check_odd(n) {
+function checkOdd(n) {
   return (n % 2 == 0) ? false : true;
 }
 // 2. Function Expression
-let check_odd = function (n) {
+let checkOdd = function (n) {
   return (n % 2 == 0) ? false : true;
 }
 // 3. Arrow Function Without Curly Braces 
-let check_odd = n => (n % 2 == 0) ? false : true;
+let checkOdd = n => (n % 2 == 0) ? false : true;
 //Arrow Function With Curly Braces 
-let check_odd = n => {
+let checkOdd = n => {
   return (n % 2 == 0) ? false : true;
 }
 // Function Invocation
-check_odd(9);
+checkOdd(9);
 
 
 
